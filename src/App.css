@@ -1,0 +1,74 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: rgb(9, 147, 202);
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+.sidebar {
+  height: 500px;
+  width: 20%;
+  background-color: #085c8d;
+  float: left;
+}
+.slidebar-top {
+  width: 100%;
+  background-color: #e7f0f5;
+  text-transform: capitalize;
+}.slidebar-top top {
+  height: 40px;
+  color: #010b11;
+  text-transform: capitalize;
+}
+.table {
+  width: 100%;
+  backface-visibility: visible;
+  scrollbar-base-color: #222;
+  background-color: #545454;
+}
+.thead {
+  background-color: rgb(80, 106, 255);
+  color:#000;
+}
+.tbody {
+  background-color: cornsilk;
+  color:darkblue;
+
+}
+.tbody button {
+  color: blue;
+  background-image:url('delete.png') 
+}
+.content {
+  height: 500px;
+  width: 80%;
+  background-color: #fef;
+  float: left;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+"table, tr, td" :{
+  border: "1px solid white" },
+
+  "tr, td" : {
+    border: "1px solid white"; 
+    textAlign: "center";
+}
